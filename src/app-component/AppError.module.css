@@ -1,0 +1,58 @@
+.formError{
+    padding: 20px;
+    height: 309px;
+    width: 1200px;
+    border-radius: 12px;
+    background: #292929; 
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(0deg, #221515, #221515),
+    linear-gradient(0deg, #FF7070, #FF7070);
+    border: 1px solid #FF7070;
+}
+
+.formError h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+  
+.formError .containerInputs{
+    display: flex;
+    justify-content: space-around;
+}
+  
+.formError div div label{
+    font-weight: 500;
+    color: #FFFFFF99;
+}
+  
+.formError div div input{
+    font-size: 16px;
+    height: 48px;
+    width: 558px;
+    left: 32px;
+    top: 232px;
+    border-radius: 12px;
+    background: #353535;
+    background: linear-gradient(0deg, #473434, #473434),
+    linear-gradient(0deg, #FF7070, #FF7070);
+    border: 1px solid #FF7070
+} 
+  
+.formError .buttonEnvio{
+    align-self: flex-end;
+    height: 57px;
+    width: 231px;
+    border-radius: 12px;
+    margin-top: 32px;
+    margin-right: 16px;
+    background: #36CE7C;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.tituloError {
+    color: #FF7070;
+}
